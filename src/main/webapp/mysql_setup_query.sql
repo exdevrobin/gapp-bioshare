@@ -40,7 +40,7 @@ create table post_reaction
 	postid int references posts(postid),
 	userid int references users(userid),
 	reaction int	--1.love 2.laugh 3.wow 4.sad 5.angry
-)
+);
 
 create table donations
 (

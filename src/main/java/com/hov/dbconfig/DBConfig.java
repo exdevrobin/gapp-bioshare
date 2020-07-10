@@ -12,7 +12,7 @@ public class DBConfig
 		try
 		{
 			Class.forName("com.mysql.cj.jdbc.Driver");
-			conn=DriverManager.getConnection("jdbc:mysql://localhost:3306/bioshare", "biosharer", "biosharer");
+			conn=DriverManager.getConnection("jdbc:mysql://localhost:3307/bioshare", "exdev", "exdev");
 		}
 		catch(Exception e)
 		{

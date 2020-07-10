@@ -16,9 +16,9 @@
 	<br>
 	<!-- FETCH THE POSTS ADDED BY FRIENDS -->
 	<sql:setDataSource driver="com.mysql.cj.jdbc.Driver" 
-					   url="jdbc:mysql://localhost:3306/bioshare"
-					   user="biosharer"
-					   password="biosharer"
+					   url="jdbc:mysql://localhost:3307/bioshare"
+					   user="exdev"
+					   password="exdev"
 					   var="conn"/>
 					   
 	<sql:query var="resultset" dataSource="${conn}"> 

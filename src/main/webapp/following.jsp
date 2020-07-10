@@ -15,9 +15,9 @@
 	<br>
 	<!-- FETCH THE USERS FOLLOWED BY CURRENT LOGGGED IN USER -->
 	<sql:setDataSource driver="com.mysql.cj.jdbc.Driver" 
-					   url="jdbc:mysql://localhost:3306/bioshare"
-					   user="biosharer"
-					   password="biosharer"
+					   url="jdbc:mysql://localhost:3307/bioshare"
+					   user="exdev"
+					   password="exdev"
 					   var="conn"/>
 					   
 	<sql:query var="userlist" dataSource="${conn}"> 
